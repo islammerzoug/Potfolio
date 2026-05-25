@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(140, 188, 219);
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    font-size: 16px;
+
+}
+button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    width: 20%;
+    border: none;
+    background: #65249e;
+    color: white;
+    border-radius: 8px;
+    
+    
+        
+}

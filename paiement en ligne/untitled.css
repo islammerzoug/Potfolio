@@ -1,0 +1,106 @@
+/* Reset simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background de toute la page */
+body {
+    background: linear-gradient(to bottom, #2ca7c9, #1fa2c3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+/* Conteneur du formulaire */
+.Forum-cont {
+    background: #e6e6e6;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio + images */
+.Forum-cont div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Bouton */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4da3e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.block02{
+     display: flex;
+    flex-direction: row;
+    
+}
+.block02 label img{
+    height:40px;
+    width: 50px;;
+}
+
+button:hover {
+    background-color: #2d8bd4;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #1f8fa8;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.{
+    font-family: "MilkyWay";
+    src:
+        url("fonts/milkyway.woff2") format("woff2"),
+        url("fonts/milkyway.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "MilkyWay", sans-serif; 
+    font-size: 2rem;
+    color: rgb(198, 181, 219);
+    font-weight: 900;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(999deg, #6fcbb7, #024749);
+}
+
+.btns {
+    margin: auto;
+}
+
+div:first-child {
+    display: flex;
+    flex-direction: column;
+    
+}

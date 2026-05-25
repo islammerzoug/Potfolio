@@ -1,0 +1,41 @@
+#margin-box {
+    width: 650px;
+    height: 380px;
+    background-color: rgb(24, 179, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#border-box {
+    width: 550px;
+    height: 280px;
+    background-color: rgb(200, 216, 59);
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#padding-box { 
+    width: 450px;
+    height: 180px; 
+    background-color: rgb(11, 155, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content-box {
+    width: 200px;
+    height: 95px; 
+    background-color: rgba(223, 87, 155, 0.992);
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
